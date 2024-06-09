@@ -7,5 +7,7 @@ history -c &&
 mv "$temp_file" ~/.bash_history &&
 history -r ~/.bash_history
 
-# TODO
-# [ ] Read `awk -F` from current `$HISTTIMEFORMAT`
+# # TODO
+# + [ ] Read `awk -F"\\$sep"` from current `$HISTTIMEFORMAT`
+# + [ ] Preserve UNIX time codes
+# + [ ] Use custom `$HISTTIMEFORMAT` with Unix timestamp & `sed` newline?
